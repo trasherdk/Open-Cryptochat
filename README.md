@@ -12,6 +12,7 @@ An understanding of how to utilize strong encryption is essential for modern sof
 
 In this tutorial, we will walk through the basic concepts and implementation of an end-to-end 2048-bit [RSA encrypted](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) messenger. We'll be utilizing [Vue.js](https://vuejs.org/) for coordinating the frontend functionality along with a [Node.js](https://nodejs.org/en/) backend using [Socket.io](https://socket.io/) for sending messages between users.
 
+- Original [Article/Tutorial](https://blog.patricktriest.com/building-an-encrypted-messenger-with-javascript/)
 - Live Preview - https://chat.patricktriest.com
 - Github Repository - https://github.com/triestpa/Open-Cryptochat
 
