@@ -48,14 +48,14 @@
         <h2>THEIR PUBLIC KEY</h2>
         <div class="key red" v-if="destinationPublicKey">
           <h3>TRUNCATED IDENTIFIER - {{ getKeySnippet(destinationPublicKey) }}</h3>
-          <p>{{ destinationPublicKey }}</p>
+          <p><pre>{{ destinationPublicKey }}</pre></p>
         </div>
         <h2 v-else>Waiting for second user to join room...</h2>
         <div class="divider"></div>
         <h2>YOUR PUBLIC KEY</h2>
         <div class="key green" v-if="originPublicKey">
           <h3>TRUNCATED IDENTIFIER - {{ getKeySnippet(originPublicKey) }}</h3>
-          <p>{{ originPublicKey }}</p>
+          <p><pre>{{ originPublicKey }}</pre></p>
         </div>
         <div class="keypair-loader full-width" v-else>
           <div class="center-x loader"></div>
