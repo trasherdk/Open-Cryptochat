@@ -14,7 +14,7 @@ In this tutorial, we will walk through the basic concepts and implementation of 
 
 - Original [Article/Tutorial](https://blog.patricktriest.com/building-an-encrypted-messenger-with-javascript/)
 - Live Preview - https://chat.patricktriest.com
-- Github Repository - https://github.com/triestpa/Open-Cryptochat
+- Github Repository - https://github.com/trasherdk/Open-Cryptochat
 
 The concepts that we are covering in this tutorial are implemented in Javascript and are mostly intended to be platform-agnostic.  We will be building a traditional browser-based web app, but you can adapt this code to work within a pre-built desktop (using [Electron](https://electronjs.org/)) or mobile ( [React Native](https://facebook.github.io/react-native/), [Ionic](https://ionicframework.com/), [Cordova](https://cordova.apache.org/)) application binary if you are concerned about browser-based application security.[^1]  Likewise, implementing similar functionality in another programming language should be relatively straightforward since most languages have reputable open-source encryption libraries available; the base syntax will change but the core concepts remain universal.
 
