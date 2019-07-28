@@ -1,19 +1,19 @@
 {
-  "name": "encrypted-chat-tutorial",
-  "version": "1.0.0",
-  "node": "8.1.4",
+  "name": "Open-Cryptochat",
+  "version": "1.1.0",
+  "node": "10.16.0",
   "license": "MIT",
-  "author": "patrick.triest@gmail.com",
+  "author": "patrick.triest@gmail.com,trasherdk@gmail.com",
   "description": "End-to-end RSA-256 encrypted chat application.",
   "main": "app.js",
   "engines": {
-    "node": ">=7.6"
+    "node": ">=9.11"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "socket.io": "2.0.3"
+    "socket.io": "^2.2.0"
   }
 }
